@@ -1,0 +1,78 @@
+﻿2020-08-19 11:32:17.654 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:32:19.739 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:32:20.561 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 11:32:26.638 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:32:30.110 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 11:34:21.313 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:34:22.253 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:34:23.089 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 11:34:30.663 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:34:34.882 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 12:13:58.190 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:13:59.125 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:13:59.888 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 12:14:03.527 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:14:04.070 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 12:17:34.650 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:17:35.664 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:17:36.367 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 12:17:40.998 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:17:41.860 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 12:19:44.040 INFO  in CheckLoanLegalityHandler loanId : a7633df2-aa1b-4e9a-996a-7eed240271a4
+2020-08-19 12:23:58.107 INFO  in CheckLoanLegalityHandler loanId : 4017112d-b8f5-408b-a359-776e1027ccf2
+2020-08-19 13:37:18.475 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 13:37:19.688 INFO  Auditing processed messages to 'audit'
+2020-08-19 13:37:20.214 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 13:37:24.261 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 13:37:24.930 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 13:39:18.035 INFO  in CheckLoanLegalityHandler loanId : 83a8dcbf-b387-4e47-98b6-e63a333b05b1
+2020-08-19 14:15:42.199 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:15:43.333 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:15:43.767 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:15:47.646 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:15:48.005 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 14:26:46.552 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:26:47.302 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:26:47.832 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:26:50.167 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:26:51.485 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 14:31:41.761 INFO  in CheckLoanLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48
+2020-08-19 14:33:14.308 INFO  in CheckLoanLegalityHandler loanId : 3bc88265-4207-446d-99c9-2fb94d4dcc42
+2020-08-19 14:35:25.118 INFO  in CheckLoanLegalityHandler loanId : c7a804f4-31e0-45b1-8416-1840feccacfd
+2020-08-19 14:40:20.531 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:40:21.549 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:40:22.021 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:42:05.258 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:42:05.951 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:42:06.772 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:42:12.539 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:42:14.211 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 14:45:58.353 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:45:59.424 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:46:00.786 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:46:06.324 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:46:07.226 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 14:58:48.819 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:58:49.674 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:58:50.182 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:58:51.876 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:58:57.744 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 15:01:24.086 INFO  in CheckLoanLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48
+2020-08-19 15:13:58.921 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:13:59.960 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:14:00.672 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 15:14:04.810 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:14:05.616 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-19 15:15:16.697 INFO  in CheckLoanLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48

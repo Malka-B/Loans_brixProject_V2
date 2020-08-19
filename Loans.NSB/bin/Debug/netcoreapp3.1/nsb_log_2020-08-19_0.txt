@@ -1,0 +1,91 @@
+﻿2020-08-19 11:32:08.785 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:32:10.971 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:32:11.689 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 11:32:26.489 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 11:34:15.124 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 11:34:17.666 INFO  Auditing processed messages to 'audit'
+2020-08-19 11:34:19.138 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 11:34:40.074 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:13:52.793 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:13:53.742 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:13:54.975 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 12:14:03.847 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:17:26.458 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 12:17:27.772 INFO  Auditing processed messages to 'audit'
+2020-08-19 12:17:28.180 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 12:17:38.534 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 12:19:51.469 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : a7633df2-aa1b-4e9a-996a-7eed240271a4
+2020-08-19 12:24:06.983 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 4017112d-b8f5-408b-a359-776e1027ccf2
+2020-08-19 13:37:07.453 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 13:37:09.415 INFO  Auditing processed messages to 'audit'
+2020-08-19 13:37:10.489 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 13:37:17.909 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 13:39:35.376 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 83a8dcbf-b387-4e47-98b6-e63a333b05b1
+2020-08-19 14:15:33.682 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:15:36.136 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:15:36.770 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:15:44.904 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:26:38.843 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:26:39.990 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:26:40.580 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:26:49.732 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:31:55.588 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48
+2020-08-19 14:32:19.420 ERROR Error cleaning outbox data
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1769; handshake=56; [Login] initialization=5; authentication=56; [Post-Login] complete=23624; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Extensions.OpenConnection(DbConnection connection) in /_/src/SqlPersistence/Extensions.cs:line 47
+   at OutboxPersister.RemoveEntriesOlderThan(DateTime dateTime, CancellationToken cancellationToken) in /_/src/SqlPersistence/Outbox/OutboxPersister.cs:line 99
+   at OutboxCleaner.<>c__DisplayClass1_0.<<OnStart>b__0>d.MoveNext() in /_/src/SqlPersistence/Outbox/OutboxCleaner.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at AsyncTimer.<>c__DisplayClass0_0.<<Start>b__0>d.MoveNext() in /_/src/SqlPersistence/Outbox/AsyncTimer.cs:line 20
+ClientConnectionId:64860af5-2170-44c1-99b2-b8939f020c6a
+Error Number:-2,State:0,Class:11
+Exception details:
+	HelpLink.ProdName: Microsoft SQL Server
+	HelpLink.EvtSrc: MSSQLServer
+	HelpLink.EvtID: -2
+	HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink
+	HelpLink.LinkId: 20476
+2020-08-19 14:40:13.448 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:40:15.278 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:40:15.746 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:40:22.379 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:40:50.261 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 3bc88265-4207-446d-99c9-2fb94d4dcc42
+2020-08-19 14:41:56.516 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:41:57.557 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:41:58.220 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:42:08.442 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:45:50.795 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:45:51.968 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:45:52.843 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:46:02.131 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 14:58:41.680 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 14:58:43.931 INFO  Auditing processed messages to 'audit'
+2020-08-19 14:58:45.546 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 14:59:02.009 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:01:28.474 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48
+2020-08-19 15:13:44.893 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-19 15:13:47.118 INFO  Auditing processed messages to 'audit'
+2020-08-19 15:13:55.350 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-19 15:14:05.379 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-19 15:15:19.018 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48
