@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj": {}
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj": {
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj",
         "projectName": "Enums",
-        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

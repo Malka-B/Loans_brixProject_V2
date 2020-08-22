@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FxaIUw6rsO8qJZ1PJcG5fdpXSXPtSRP+J8XuCpE4PcBbM0buLfEH3p7/NgWG9jdESu8PyBKTxs8qFb6GzrsyXw==",
+  "dgSpecHash": "L6VlvmF1cB1inMc9PHmSAqeCEoYF2uE8RiXb5WLgz7keSGkWoycvWt32uhCxZ5e7x94+VgxuJz+ljuMBDW3JiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.WebApi\\Rules.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.WebApi\\Rules.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\epplus\\5.2.1\\epplus.5.2.1.nupkg.sha512",

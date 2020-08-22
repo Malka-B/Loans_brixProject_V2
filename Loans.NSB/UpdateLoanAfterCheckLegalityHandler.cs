@@ -32,15 +32,13 @@ namespace Loans.NSB
         {
             if (isLoanValid)
             {
-                Console.BackgroundColor = ConsoleColor.Green;
-                Console.WriteLine("The loan is valid: Decision Tree:");
-                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("The loan is valid: Decision Tree:");               
             }
             else 
             {
-                Console.BackgroundColor = ConsoleColor.Red;
-                Console.WriteLine("The loan is invalid: Decision Tree");
-                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("The loan is invalid: Decision Tree");               
             }
             List<RuleTreeNode> ruleTreeNodeRoots = tree.Where(rl => rl.ParentRuleId == 0).ToList();
             foreach (var root in ruleTreeNodeRoots)

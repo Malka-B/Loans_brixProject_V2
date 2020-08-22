@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj",
       "projectName": "Exceptions",
-      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

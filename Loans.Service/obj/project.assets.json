@@ -8616,11 +8616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj",
       "projectName": "Loans.Service",
-      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8639,14 +8639,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj"
+            "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj"
+            "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj"
+            "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj"
             }
           }
         }

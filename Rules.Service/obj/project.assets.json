@@ -8756,11 +8756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.Service\\Rules.Service.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.Service\\Rules.Service.csproj",
       "projectName": "Rules.Service",
-      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.Service\\Rules.Service.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.Service\\Rules.Service.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.Service\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8779,11 +8779,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj"
+            "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj"
+            "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj"
             }
           }
         }

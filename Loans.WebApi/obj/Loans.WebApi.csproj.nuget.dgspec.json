@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.WebApi\\Loans.WebApi.csproj": {}
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.WebApi\\Loans.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj": {
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj",
         "projectName": "Enums",
-        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj": {
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj",
         "projectName": "Exceptions",
-        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,14 +114,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Data\\Loans.Data.csproj": {
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Data\\Loans.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Data\\Loans.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Data\\Loans.Data.csproj",
         "projectName": "Loans.Data",
-        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Data\\Loans.Data.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Data\\Loans.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -140,8 +140,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj"
               }
             }
           }
@@ -226,14 +226,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj": {
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj",
         "projectName": "Loans.Service",
-        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -252,14 +252,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Exceptions\\Exceptions.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Exceptions\\Exceptions.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj"
               }
             }
           }
@@ -348,14 +348,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.WebApi\\Loans.WebApi.csproj": {
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.WebApi\\Loans.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.WebApi\\Loans.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.WebApi\\Loans.WebApi.csproj",
         "projectName": "Loans.WebApi",
-        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.WebApi\\Loans.WebApi.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.WebApi\\Loans.WebApi.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -374,17 +374,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Data\\Loans.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Data\\Loans.Data.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Data\\Loans.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Data\\Loans.Data.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Loans.Service\\Loans.Service.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Loans.Service\\Loans.Service.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj"
               }
             }
           }
@@ -497,14 +497,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj": {
+    "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj",
         "projectName": "Messages",
-        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\Messages.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\Messages.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Messages\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Messages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -523,8 +523,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Enums\\Enums.csproj"
+              "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Enums\\Enums.csproj"
               }
             }
           }

@@ -1,0 +1,86 @@
+﻿2020-08-23 00:03:55.355 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-23 00:03:56.249 INFO  Auditing processed messages to 'audit'
+2020-08-23 00:03:56.945 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-23 00:04:05.700 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-23 00:07:21.090 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-23 00:07:22.375 INFO  Auditing processed messages to 'audit'
+2020-08-23 00:07:23.071 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-23 00:07:29.720 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-23 00:14:00.212 WARN  'LoansNSB Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-23 00:14:00.212 WARN  'LoansNSB MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-23 00:14:00.259 INFO  Attempting to reconnect in 10 seconds.
+2020-08-23 00:14:01.038 WARN  The circuit breaker for 'LoansNSB MessagePump' is now in the armed state
+2020-08-23 00:14:10.373 INFO  The circuit breaker for 'LoansNSB MessagePump' is now disarmed
+2020-08-23 00:14:10.384 INFO  Connection to the broker reestablished successfully.
+2020-08-23 00:14:23.651 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 5aa12830-ac78-4cb1-b044-2b185f0075f8
+2020-08-23 00:15:41.209 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 66006803-b1dd-4877-9b93-419a3478f4cc
+2020-08-23 00:30:07.113 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-23 00:30:08.365 INFO  Auditing processed messages to 'audit'
+2020-08-23 00:30:08.810 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-23 00:30:17.258 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-23 00:33:39.837 WARN  'LoansNSB MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-23 00:33:39.841 WARN  'LoansNSB Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-23 00:33:43.967 INFO  Attempting to reconnect in 10 seconds.
+2020-08-23 00:33:43.975 WARN  The circuit breaker for 'LoansNSB MessagePump' is now in the armed state
+2020-08-23 00:35:34.596 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-23 00:35:36.459 INFO  Auditing processed messages to 'audit'
+2020-08-23 00:35:37.444 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-23 00:35:46.751 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-23 00:38:08.656 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 940b0a46-ec51-4088-9fc4-cfff2726d7d6
+2020-08-23 00:42:41.601 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-23 00:42:42.816 INFO  Auditing processed messages to 'audit'
+2020-08-23 00:42:44.766 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-23 00:42:54.430 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-23 00:48:47.095 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 1d801b5f-fe43-4cfe-878f-19e862ecbdd6
+2020-08-23 00:49:59.516 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : b2090894-1a55-4652-a539-4307ad3b29c1
+2020-08-23 00:51:04.342 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : f02be61f-0d37-4b35-a693-ecc8be75e705
+2020-08-23 00:55:53.847 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-23 00:55:55.020 INFO  Auditing processed messages to 'audit'
+2020-08-23 00:55:55.800 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-23 00:56:04.526 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-23 00:59:27.590 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : d419b9ad-9237-4907-a3e5-70cfe6f86eb0
+2020-08-23 01:01:24.692 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : c68f55f1-e591-4dd4-9b31-e9e6896b9760
+2020-08-23 01:01:58.469 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 4bac9cf6-1036-4080-9cca-a7c97f393857
+2020-08-23 01:02:33.043 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : f5cf6682-d4a5-439c-a462-8872fa076d1b

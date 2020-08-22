@@ -9639,11 +9639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.WebApi\\Rules.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.WebApi\\Rules.WebApi.csproj",
       "projectName": "Rules.WebApi",
-      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.WebApi\\Rules.WebApi.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.WebApi\\Rules.WebApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9662,8 +9662,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.Data\\Rules.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank - gibuicodereveiw\\Rules.Data\\Rules.Data.csproj"
+            "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.Data\\Rules.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\‏‏Bank_V2\\Rules.Data\\Rules.Data.csproj"
             }
           }
         }

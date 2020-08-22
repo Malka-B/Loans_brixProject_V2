@@ -1,0 +1,49 @@
+﻿2020-08-22 22:31:44.596 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-22 22:31:45.426 INFO  Auditing processed messages to 'audit'
+2020-08-22 22:31:46.023 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-22 22:32:42.077 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-22 22:32:42.979 INFO  Auditing processed messages to 'audit'
+2020-08-22 22:32:43.513 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-22 22:36:47.781 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-22 22:36:49.456 INFO  Auditing processed messages to 'audit'
+2020-08-22 22:36:50.146 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-22 22:36:59.686 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-22 22:38:05.017 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 9d41ab71-a214-43b4-b2f0-e39e24889919
+2020-08-22 22:40:25.292 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : dd71f0a1-4556-48f7-93d7-8ba11821698a
+2020-08-22 22:42:00.782 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 039ecdd0-8f7b-405b-a5a0-53079facef7d
+2020-08-22 22:42:37.204 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 07c4a2dd-0e4e-4ec3-8882-2df4cf94b240
+2020-08-22 22:43:23.867 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : d3f7703c-2fa3-4809-bc06-b3542424d433
+2020-08-22 22:49:03.816 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 86425e26-3f31-4fe3-b232-f8c553638b81
+2020-08-22 22:50:29.686 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 095896e2-97c3-4153-b6c1-29cc36eef13a
+2020-08-22 22:51:43.669 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : fe947174-86c7-4bab-86c9-fd599de74a43
+2020-08-22 22:52:22.280 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 1c675205-1ee3-4e01-af90-7fc8e49f1f35
+2020-08-22 23:34:28.194 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-22 23:34:29.855 INFO  Auditing processed messages to 'audit'
+2020-08-22 23:34:30.490 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-22 23:34:38.093 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-22 23:42:09.239 WARN  'LoansNSB MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-22 23:42:09.239 WARN  'LoansNSB Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-08-22 23:43:15.269 INFO  Attempting to reconnect in 10 seconds.
+2020-08-22 23:43:15.302 WARN  The circuit breaker for 'LoansNSB MessagePump' is now in the armed state

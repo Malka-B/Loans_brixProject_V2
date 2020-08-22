@@ -17,7 +17,7 @@ namespace Rules.Service
     public class CheckRulesService : ICheckRulesService
     {
         private readonly ICheckRulesRepository _checkRulesRepository;
-        private readonly IMapper _mapper;        
+        private readonly IMapper _mapper;
         private readonly Dictionary<string, string> rulesParameterTypes = new Dictionary<string, string>() {
             { "Salary", "int" },
             { "FixedSalary", "bool"},
@@ -31,7 +31,7 @@ namespace Rules.Service
         public CheckRulesService(ICheckRulesRepository checkRulesRepository, IMapper mapper)
         {
             _checkRulesRepository = checkRulesRepository;
-            _mapper = mapper;          
+            _mapper = mapper;
         }
 
         public async Task<LoanChecked> CheckLegality(CheckLoanValid loanToCheck)
@@ -50,8 +50,7 @@ namespace Rules.Service
         private LoanChecked ScanProviderTreeRules(List<RuleModel> rulesTree, CheckLoanValid loanToCheck)
         {
             LoanChecked loanChecked = new LoanChecked();
-            bool isBranchRulesValid = true;
-            // checkedRulesTree that contains what scanned in oreder to represent it to client
+            bool isBranchRulesValid = true;            
             List<RuleTreeNode> checkedRulesTree = _mapper.Map<List<RuleTreeNode>>(rulesTree);
             List<RuleModel> ruleRoots = rulesTree.Where(rl => rl.ParentRule == null).ToList();
             List<RuleTreeNode> CheckedRulesRoots = checkedRulesTree.Where(rl => rl.ParentRuleId == 0).ToList();
@@ -93,6 +92,8 @@ namespace Rules.Service
         {
             //depth tree scan using stack
             bool isBranchValid = true;
+            bool isTopValid = true;
+            bool isNewBranch = true;
             Stack<RuleModel> rulesTreeStack = new Stack<RuleModel>();
             Stack<RuleTreeNode> checkedRulesTreeStack = new Stack<RuleTreeNode>();
 
@@ -102,14 +103,23 @@ namespace Rules.Service
             {
                 var currentRuleToCheck = rulesTreeStack.Pop();
                 var currentCheckedRuleToUpdate = checkedRulesTreeStack.Pop();
-
-                for (int j = 0; j < currentRuleToCheck.ChildrenRules.Count; j++)//create stack of branch nodes
+                int j;
+                for (j = 0; j < currentRuleToCheck.ChildrenRules.Count; j++)//create stack of branch nodes
                 {
                     rulesTreeStack.Push(currentRuleToCheck.ChildrenRules[j]);
                     checkedRulesTreeStack.Push(currentCheckedRuleToUpdate.ChildrenRules[j]);
                 }
+               
                 var loanValueToCompare = message.LoanDetails.GetType().GetProperty(currentRuleToCheck.Parameter).GetValue(message.LoanDetails, null);
                 bool isRuleValid = CheckRuleValid(loanValueToCompare, currentRuleToCheck.Parameter, currentRuleToCheck.Operator, currentRuleToCheck.ValueToCompeare, currentRuleToCheck.Id, message.IgnoreRules);
+                if (j == currentRuleToCheck.ChildrenRules.Count && isNewBranch && j != 0)
+                {
+                    if (isBranchValid == false || isRuleValid == false)//invalid before internal branches
+                    {                        
+                        isTopValid = false;
+                    }
+                    isNewBranch = false;                    
+                }
                 isBranchValid = isRuleValid ? isBranchValid : false;
                 UpdateCheckedRulesTree(loanValueToCompare, currentCheckedRuleToUpdate, currentRuleToCheck, isRuleValid);
 
@@ -118,7 +128,12 @@ namespace Rules.Service
                     if (isBranchValid)
                     {
                         return true;
-                    }                    
+                    }
+                    else if(isBranchValid == false && isTopValid)//Checked branch is invalid
+                    {
+                        isBranchValid = true;
+                        isNewBranch = true;
+                    }
                 }
             }
             return false;
@@ -137,7 +152,7 @@ namespace Rules.Service
                            $"Invalid: {ruleTreeStackItem.Parameter} = {loanValueToCompare} for rule: {ruleTreeStackItem.Parameter} {ruleTreeStackItem.Operator} {ruleTreeStackItem.ValueToCompeare}.";
             return ruleDescription;
         }
-        //send 3 params 1,1.....
+        
         private bool CheckRuleValid(object loanValueToCompare, string parameter, string @operator, string valueToCompare, int id, List<int> ignoreRules)
         {
             if (ignoreRules != null && ignoreRules.Contains(id))//approve by manager

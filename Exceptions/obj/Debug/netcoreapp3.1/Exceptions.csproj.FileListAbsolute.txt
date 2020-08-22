@@ -16,3 +16,12 @@ C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Exceptions\obj\Debug\net
 C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
 C:\Users\User\source\repos\‏‏Bank - gibuicodereveiw\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csprojAssemblyReference.cache
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\User\source\repos\‏‏Bank_V2\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
