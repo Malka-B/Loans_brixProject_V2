@@ -20,20 +20,12 @@ namespace Rules.WebApi.Controllers
             _rulesService = rulesService;
             _mapper = mapper;
         }
-        //פוסט לרישום והכנסת חוקים למערכת
+        
         [HttpPost]
         public async Task RegisterToProvideLoans(RegisterDTO register)
         {
             RegisterModel registerModel = _mapper.Map<RegisterModel>(register);
-            await _rulesService.RegisterToProvideLoans(registerModel);   
-             
-        }
-
-        [HttpPost]
-        public async Task UpdatePolicyRules(RegisterDTO register)
-        {
-            RegisterModel registerModel = _mapper.Map<RegisterModel>(register);
-            await _rulesService.UpdatePolicyRules(registerModel);            
-        }
+            await _rulesService.RegisterToProvideLoans(registerModel); 
+        }        
     }
 }

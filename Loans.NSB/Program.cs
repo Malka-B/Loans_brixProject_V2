@@ -82,12 +82,11 @@ namespace Loans.NSB
             conventions.DefiningCommandsAs(type => type.Namespace == "Messages.Commands");
             conventions.DefiningEventsAs(type => type.Namespace == "Messages.Events");
 
-            var endpointInstance = await Endpoint.Start(endpointConfiguration)
-                .ConfigureAwait(false);
+            var endpointInstance = await Endpoint.Start(endpointConfiguration);
+               
             Console.WriteLine("Press Enter to exit.");
             Console.ReadLine();
-            await endpointInstance.Stop()
-                .ConfigureAwait(false);
+            await endpointInstance.Stop();
 
             string GetQueue(string queueName)
             {

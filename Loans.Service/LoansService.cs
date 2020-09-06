@@ -31,17 +31,17 @@ namespace Loans.Service
             return loanId;
         }
 
-        public async Task<Guid> Update(Guid loanId, LoanModel loanModel)
+        public async Task Update(Guid loanId, LoanModel loanModel)
         {
             bool isLoanExist = await _loansRepository.CheckLoanExist(loanId);
             if (isLoanExist)
             {
                 loanModel.LoanStatus = LoanStatus.InProcess;
-                return await _loansRepository.Update(loanId, loanModel);
+                await _loansRepository.Update(loanId, loanModel);
             }
             else
             {
-                return await Create(loanModel);
+                throw new LoanNotFoundException();
             }
         }
 

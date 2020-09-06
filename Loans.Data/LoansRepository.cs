@@ -34,7 +34,7 @@ namespace Loans.Data
 
         public async Task<Guid> Create(LoanModel loanModel)
         {
-            //האם לבדוק אם ספק ההלוואה קיים?//מסתמכת על ספקים קבועים במאגר
+            //now, I assume that provider loan id exists
             LoanEntity loanEntity = _mapper.Map<LoanEntity>(loanModel);
             loanEntity.ID = Guid.NewGuid();
             loanEntity.LoanDate = DateTime.Now;
@@ -43,7 +43,7 @@ namespace Loans.Data
             return loanEntity.ID;
         }
 
-        public async Task<Guid> Update(Guid loanId, LoanModel loanModel)
+        public async Task Update(Guid loanId, LoanModel loanModel)
         {
             LoanEntity loanEntity = _mapper.Map<LoanEntity>(loanModel);
             LoanEntity loanToUpdate = await _loansContext.Loans
@@ -55,8 +55,7 @@ namespace Loans.Data
             loanToUpdate.NumberOfRepayments = loanEntity.NumberOfRepayments;
             loanToUpdate.SeniorityYearsInBank = loanEntity.SeniorityYearsInBank;
             loanToUpdate.LoanStatus = loanEntity.LoanStatus;
-            await _loansContext.SaveChangesAsync();
-            return loanToUpdate.ID;
+            await _loansContext.SaveChangesAsync();            
         }
 
         public async Task UpdateLoanFailureRules(Guid loanId, List<LoanFailureRulesModel> failureRules)

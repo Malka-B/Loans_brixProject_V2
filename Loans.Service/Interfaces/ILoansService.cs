@@ -8,7 +8,7 @@ namespace Loans.Service.Interfaces
     public interface ILoansService
     {
         Task<Guid> Create(LoanModel loanModel);
-        Task<Guid> Update(Guid loanId, LoanModel loanModel);
+        Task Update(Guid loanId, LoanModel loanModel);
         Task UpdateLoanAfterCheckLegality(LoanChecked message);
     }
 }

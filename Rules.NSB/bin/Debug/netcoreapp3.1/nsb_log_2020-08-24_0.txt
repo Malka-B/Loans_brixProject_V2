@@ -1,0 +1,108 @@
+﻿2020-08-24 22:07:04.863 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-24 22:07:06.177 INFO  Auditing processed messages to 'audit'
+2020-08-24 22:07:06.583 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-24 22:07:11.147 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-24 22:07:11.487 WARN  All queues owned by the endpoint will be purged on startup.
+2020-08-24 22:10:23.304 INFO  in CheckLoanLegalityHandler loanId : 2caa55f9-2a35-4326-a46f-ca6eb1c9136c
+2020-08-24 22:12:06.564 INFO  in CheckLoanLegalityHandler loanId : 4be5ee2e-6872-488a-a519-891378b8e5bb
+2020-08-24 22:12:35.336 INFO  Immediate Retry is going to retry message 'bcc14bf3-9602-4b2a-9180-ac21013c87ed' because of an exception:
+System.Exception: invalid logic
+   at Rules.Service.Extensions.Extension.Operator(String logic, ParameterExpression param, ConstantExpression valueToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\Extensions\OperatorExtension.cs:line 20
+   at Rules.Service.CheckRulesService.GetRuleExpression[T](String parameter, String operator1, T valToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 192
+   at Rules.Service.CheckRulesService.CheckRuleValid(Object loanValueToCompare, String parameter, String operator, String valueToCompare, Int32 id, List`1 ignoreRules) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 166
+   at Rules.Service.CheckRulesService.CheckBranchRulesValid(RuleModel ruleRoot, RuleTreeNode checkedRulesRoot, CheckLoanValid message) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 114
+   at Rules.Service.CheckRulesService.ScanProviderTreeRules(List`1 rulesTree, CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 59
+   at Rules.Service.CheckRulesService.CheckLegality(CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 45
+   at Rules.NSB.CheckLoanValidHandler.Handle(CheckLoanValid message, IMessageHandlerContext context) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\CheckLoanValidHandler.cs:line 22
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: Messages.Commands.CheckLoanValid
+	Handler type: Rules.NSB.CheckLoanValidHandler
+	Handler start time: 24/08/2020 19:12:27
+	Handler failure time: 24/08/2020 19:12:35
+	Message ID: bcc14bf3-9602-4b2a-9180-ac21013c87ed
+2020-08-24 22:12:35.740 WARN  Delayed Retry will reschedule message 'bcc14bf3-9602-4b2a-9180-ac21013c87ed' after a delay of 00:00:02 because of an exception:
+System.Exception: invalid logic
+   at Rules.Service.Extensions.Extension.Operator(String logic, ParameterExpression param, ConstantExpression valueToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\Extensions\OperatorExtension.cs:line 20
+   at Rules.Service.CheckRulesService.GetRuleExpression[T](String parameter, String operator1, T valToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 192
+   at Rules.Service.CheckRulesService.CheckRuleValid(Object loanValueToCompare, String parameter, String operator, String valueToCompare, Int32 id, List`1 ignoreRules) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 166
+   at Rules.Service.CheckRulesService.CheckBranchRulesValid(RuleModel ruleRoot, RuleTreeNode checkedRulesRoot, CheckLoanValid message) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 114
+   at Rules.Service.CheckRulesService.ScanProviderTreeRules(List`1 rulesTree, CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 59
+   at Rules.Service.CheckRulesService.CheckLegality(CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 45
+   at Rules.NSB.CheckLoanValidHandler.Handle(CheckLoanValid message, IMessageHandlerContext context) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\CheckLoanValidHandler.cs:line 22
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: Messages.Commands.CheckLoanValid
+	Handler type: Rules.NSB.CheckLoanValidHandler
+	Handler start time: 24/08/2020 19:12:35
+	Handler failure time: 24/08/2020 19:12:35
+	Message ID: bcc14bf3-9602-4b2a-9180-ac21013c87ed
+2020-08-24 22:12:38.061 INFO  Immediate Retry is going to retry message 'bcc14bf3-9602-4b2a-9180-ac21013c87ed' because of an exception:
+System.Exception: invalid logic
+   at Rules.Service.Extensions.Extension.Operator(String logic, ParameterExpression param, ConstantExpression valueToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\Extensions\OperatorExtension.cs:line 20
+   at Rules.Service.CheckRulesService.GetRuleExpression[T](String parameter, String operator1, T valToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 192
+   at Rules.Service.CheckRulesService.CheckRuleValid(Object loanValueToCompare, String parameter, String operator, String valueToCompare, Int32 id, List`1 ignoreRules) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 166
+   at Rules.Service.CheckRulesService.CheckBranchRulesValid(RuleModel ruleRoot, RuleTreeNode checkedRulesRoot, CheckLoanValid message) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 114
+   at Rules.Service.CheckRulesService.ScanProviderTreeRules(List`1 rulesTree, CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 59
+   at Rules.Service.CheckRulesService.CheckLegality(CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 45
+   at Rules.NSB.CheckLoanValidHandler.Handle(CheckLoanValid message, IMessageHandlerContext context) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\CheckLoanValidHandler.cs:line 22
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: Messages.Commands.CheckLoanValid
+	Handler type: Rules.NSB.CheckLoanValidHandler
+	Handler start time: 24/08/2020 19:12:37
+	Handler failure time: 24/08/2020 19:12:38
+	Message ID: bcc14bf3-9602-4b2a-9180-ac21013c87ed
+2020-08-24 22:12:38.293 ERROR Moving message 'bcc14bf3-9602-4b2a-9180-ac21013c87ed' to the error queue 'error' because processing failed due to an exception:
+System.Exception: invalid logic
+   at Rules.Service.Extensions.Extension.Operator(String logic, ParameterExpression param, ConstantExpression valueToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\Extensions\OperatorExtension.cs:line 20
+   at Rules.Service.CheckRulesService.GetRuleExpression[T](String parameter, String operator1, T valToCompare) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 192
+   at Rules.Service.CheckRulesService.CheckRuleValid(Object loanValueToCompare, String parameter, String operator, String valueToCompare, Int32 id, List`1 ignoreRules) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 166
+   at Rules.Service.CheckRulesService.CheckBranchRulesValid(RuleModel ruleRoot, RuleTreeNode checkedRulesRoot, CheckLoanValid message) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 114
+   at Rules.Service.CheckRulesService.ScanProviderTreeRules(List`1 rulesTree, CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 59
+   at Rules.Service.CheckRulesService.CheckLegality(CheckLoanValid loanToCheck) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.Service\CheckRulesService.cs:line 45
+   at Rules.NSB.CheckLoanValidHandler.Handle(CheckLoanValid message, IMessageHandlerContext context) in C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\CheckLoanValidHandler.cs:line 22
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message, Byte[] messageBody) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 266
+Exception details:
+	Message type: Messages.Commands.CheckLoanValid
+	Handler type: Rules.NSB.CheckLoanValidHandler
+	Handler start time: 24/08/2020 19:12:38
+	Handler failure time: 24/08/2020 19:12:38
+	Message ID: bcc14bf3-9602-4b2a-9180-ac21013c87ed

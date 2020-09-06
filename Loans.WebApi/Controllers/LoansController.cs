@@ -27,7 +27,7 @@ namespace Loans.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<Guid> Create([FromBody] LoanDTO loan)//לבדוק שהמיפוי אכן עובד ולראות אם לקבל יד
+        public async Task<Guid> Create([FromBody] LoanDTO loan)
         {
             LoanModel loanModel = _mapper.Map<LoanModel>(loan);
             Guid loanId = await _loansService.Create(loanModel);
@@ -37,25 +37,19 @@ namespace Loans.WebApi.Controllers
             loanToCheck.LoanDetails = loanDetails;
             await _messageSession.Send(loanToCheck);                
             return loanId;
-            
-            //loanToCheck.LoanDetails.LoanId = loanId;
-            //await _messageSession.Send(loanToCheck)
-            //    .ConfigureAwait(false);//del api
-            //return loanId;            
+            //Ok($"Your loan created successfully. Loan Id:{loanId}");           
         }
 
         [HttpPut("{LoanId}")]
         public async Task Update(Guid loanId, [FromBody] LoanDTO loanToUpdate)
         {
             LoanModel loanModel = _mapper.Map<LoanModel>(loanToUpdate);
-            Guid _loanId = await _loansService.Update(loanId, loanModel);//האם צריך שיחזור היד
+            await _loansService.Update(loanId, loanModel);
             CheckLoanValid loanToCheck = new CheckLoanValid();
             LoanDetails loanDetails = _mapper.Map<LoanDetails>(loanModel);
             loanDetails.LoanId = loanId;
-            loanToCheck.LoanDetails = loanDetails;
-            //CheckLoanValid loanToCheck = _mapper.Map<CheckLoanValid>(loanModel);
-            //loanToCheck.LoanDetails.LoanId = loanId;//לבדוק שאכן מאותחל בערך
-            await _messageSession.Send(loanToCheck);                
+            loanToCheck.LoanDetails = loanDetails;            
+            await _messageSession.Send(loanToCheck);               
         }
     }
 }

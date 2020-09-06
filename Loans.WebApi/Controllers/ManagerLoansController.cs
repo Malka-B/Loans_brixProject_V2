@@ -36,8 +36,7 @@ namespace Loans.WebApi.Controllers
                 LoanId = loanId
             };
             CheckLoanValid checkLoanValid = await _managerLoansService.ApproveLoan(approveLoanModel);                       
-            await _messageSession.Send(checkLoanValid)
-                .ConfigureAwait(false);            
+            await _messageSession.Send(checkLoanValid);            
         }
     }
 }

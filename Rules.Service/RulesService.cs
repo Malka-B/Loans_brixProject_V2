@@ -21,25 +21,7 @@ namespace Rules.Service
         {
             _rulesRepository = rulesRepository;
         }
-
-        public async Task UpdatePolicyRules(RegisterModel registerModel)
-        {
-            bool isProviderLoanExist = await _rulesRepository.CheckProviderLoanExist(registerModel.ProviderLoanId);
-            if (isProviderLoanExist)
-            {
-                List<RuleModel> policyRules = ConvertExcelToRulesObject(registerModel.FilePath);
-                List<RuleModel> rulesListToDb = CreateRulesTree(policyRules, registerModel.ProviderLoanId);
-                await _rulesRepository.UpdatePolicy(registerModel.ProviderLoanId, rulesListToDb);
-                
-            }
-            else
-            {
-                //האם לזרוק שגיאה של לא נמצא או להפנות לרישום
-                //וכן בסרויס ההלוואות בעדכון הלוואה
-                throw new LoanProviderNotFoundException();
-            }
-        }
-
+            
         public async Task RegisterToProvideLoans(RegisterModel registerModel)
         {                                 
             bool isProviderLoanExist = await _rulesRepository.CheckProviderLoanExist(registerModel.ProviderLoanId);

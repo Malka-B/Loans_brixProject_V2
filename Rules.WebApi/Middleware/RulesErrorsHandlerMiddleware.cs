@@ -1,6 +1,7 @@
 ﻿using Exceptions;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using Serilog;
 using System;
 using System.Net;
 using System.Threading.Tasks;
@@ -29,11 +30,12 @@ namespace Rules.WebApi.Middleware
         {
             var code = new HttpStatusCode();
             var errorMessage = "";
-            if (ex is DuplicateLoanProviderIdException)
+            if (ex is LoanNotFoundException)
             {
                 code = HttpStatusCode.BadRequest;
                 context.Response.StatusCode = (int)code;
-                errorMessage = "Loan Provider Id already exist in system. Try again or update your policy rules";
+                errorMessage = "Loan Id is wrong. Please try again";
+                Log.Error("Someone try to update loan with wrong Id");
             }           
             //write to log db the exception
             var result = JsonConvert.SerializeObject(new { error = errorMessage });

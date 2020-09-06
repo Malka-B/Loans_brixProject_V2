@@ -1,0 +1,6 @@
+﻿2020-08-25 09:00:16.511 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-08-25 09:00:17.838 INFO  Auditing processed messages to 'audit'
+2020-08-25 09:00:18.433 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-08-25 09:00:23.306 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-08-25 09:00:23.812 WARN  All queues owned by the endpoint will be purged on startup.

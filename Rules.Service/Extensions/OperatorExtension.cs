@@ -12,6 +12,7 @@ namespace Rules.Service.Extensions
                 case ">": return Expression.GreaterThan(param, valueToCompare);
                 case "<": return Expression.LessThan(param, valueToCompare);
                 case "==": return Expression.Equal(param, valueToCompare);
+                case "=": return Expression.Equal(param, valueToCompare);
                 case ">=": return Expression.GreaterThanOrEqual(param, valueToCompare);
                 case "<=": return Expression.LessThanOrEqual(param, valueToCompare);
                 case "!=": return Expression.NotEqual(param, valueToCompare);

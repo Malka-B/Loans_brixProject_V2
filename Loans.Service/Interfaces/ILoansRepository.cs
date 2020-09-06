@@ -9,7 +9,7 @@ namespace Loans.Service.Interfaces
     public interface ILoansRepository
     {
         Task<Guid> Create(LoanModel loanModel);
-        Task<Guid> Update(Guid loanId,LoanModel loanModel);
+        Task Update(Guid loanId,LoanModel loanModel);
         Task UpdateLoanStatus(Guid loanId, LoanStatus loanStatus);
         Task<bool> CheckLoanExist(Guid loanId);
         Task UpdateLoanFailureRules(Guid loanId, List<LoanFailureRulesModel> failureRules);

@@ -5,7 +5,6 @@ using Rules.Service.Interfaces;
 using Rules.Service.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 
@@ -38,15 +37,6 @@ namespace Rules.Data
             List<Rule> policyRulesList = _mapper.Map<List<Rule>>(policyRules);            
             await _rulesContext.AddRangeAsync(policyRulesList);
             await _rulesContext.SaveChangesAsync(); 
-        }
-
-        public async Task UpdatePolicy(Guid providerLoanId, List<RuleModel> policyRules)
-        {
-            List<Rule> policyRulesList = _mapper.Map<List<Rule>>(policyRules);
-            List<Rule> policyRulesListToUpdate = await _rulesContext.Rule.Where(r => r.LoanProviderId == providerLoanId).ToListAsync();
-            _rulesContext.RemoveRange(policyRulesListToUpdate);
-            await _rulesContext.AddRangeAsync(policyRulesList);
-            await _rulesContext.SaveChangesAsync();
-        }
+        }       
     }
 }

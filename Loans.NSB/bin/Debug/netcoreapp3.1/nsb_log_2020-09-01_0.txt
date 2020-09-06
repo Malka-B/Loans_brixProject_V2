@@ -1,0 +1,7 @@
+﻿2020-09-01 20:50:29.388 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-09-01 20:50:30.064 INFO  Auditing processed messages to 'audit'
+2020-09-01 20:50:30.294 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-09-01 20:50:35.900 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Loans.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-09-01 20:55:33.357 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : 7b598408-95e5-472a-a0e3-78372e722eba
+2020-09-01 21:34:20.026 INFO  in UpdateLoanAfterCheckLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48

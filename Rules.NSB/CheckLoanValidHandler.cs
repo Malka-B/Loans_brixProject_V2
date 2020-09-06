@@ -21,8 +21,7 @@ namespace Rules.NSB
         {
             LoanChecked loanChecked = await _checkRulesService.CheckLegality(message);
             log.Info($"in CheckLoanLegalityHandler loanId : {message.LoanDetails.LoanId}");            
-            await context.Publish(loanChecked)
-                .ConfigureAwait(false);   
+            await context.Publish(loanChecked);   
         }
     }
 }

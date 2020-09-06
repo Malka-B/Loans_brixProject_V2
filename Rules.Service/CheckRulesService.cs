@@ -183,13 +183,12 @@ namespace Rules.Service
             return ruleDescription;
         }
 
-        private Expression<Func<T, bool>> GetRuleExpression<T>(string parameter, string operator1, T valToCompare)
-
+        private Expression<Func<T, bool>> GetRuleExpression<T>(string parameter, string @operator, T valToCompare)
         {
             ParameterExpression param = Expression.Parameter(typeof(T), parameter);//שם פרמטר הלמדה וסוג התכולה שלו            
             ConstantExpression valueToCompare = Expression.Constant(valToCompare);//הערך אליו משווים והסוג שלו 
 
-            BinaryExpression parameterOperatorValToCompare = operator1.Operator(param, valueToCompare);// LessThan אופרטור ההשוואה
+            BinaryExpression parameterOperatorValToCompare = @operator.Operator(param, valueToCompare);// LessThan אופרטור ההשוואה
             Expression<Func<T, bool>> ruleExpression =
                 Expression.Lambda<Func<T, bool>>(
                     parameterOperatorValToCompare,

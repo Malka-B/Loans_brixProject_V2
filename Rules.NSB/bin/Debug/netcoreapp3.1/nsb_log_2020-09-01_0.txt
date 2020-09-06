@@ -1,0 +1,8 @@
+﻿2020-09-01 20:50:31.919 INFO  Logging to 'C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\bin\Debug\netcoreapp3.1\' with level Info
+2020-09-01 20:50:32.482 INFO  Auditing processed messages to 'audit'
+2020-09-01 20:50:32.976 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-09-01 20:50:35.513 INFO  Executing 'C:\Users\User\source\repos\‏‏Bank_V2\Rules.NSB\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-09-01 20:50:36.378 WARN  All queues owned by the endpoint will be purged on startup.
+2020-09-01 20:55:32.661 INFO  in CheckLoanLegalityHandler loanId : 7b598408-95e5-472a-a0e3-78372e722eba
+2020-09-01 21:34:19.821 INFO  in CheckLoanLegalityHandler loanId : d5692308-b155-4aa2-9c79-c08b5acddd48
